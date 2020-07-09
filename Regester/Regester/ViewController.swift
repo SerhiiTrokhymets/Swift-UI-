@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             text.placeholder = "Введите ваш пароль"  }
         alertRegister.addTextField { (text) in
             text.isSecureTextEntry = true
-            text.placeholder = "Повторите ваш пароль" }
+            text.placeholder = "Повторите ваш пароль еще раз" }
         
     }
     
